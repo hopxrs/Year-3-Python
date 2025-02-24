@@ -1,0 +1,18 @@
+#This is a comment :D
+#Python ignores comments
+#Comments are used to explain the code
+#The best programmers comments all their code
+#the programmers dont comment at all
+
+#Example
+name = "dave" #this is a variable called name - variable stores information until it its value is changed
+print(name) #This displays whatever is in name 
+
+
+
+print("Hello, its me")
+me = int(input("How old are you"))
+if me == 7:
+    print("same")
+else:
+    print("No I am seven.")
