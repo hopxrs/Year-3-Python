@@ -1,0 +1,12 @@
+print("Welcome to MAD-LIB")
+print("Please answer the following questions")
+print("")
+adjective1 = input("Enter an adjective e.g. Small ")
+country = input("Enter a country: ")
+foot1 = input("Enter a good football team: ")
+foot2 = input("Enter a bad football team: ")
+idol = input("Who is your idol and king: ")
+
+print("")
+print("Here is your MAD-LIB ")
+print("Your aura is ",adjective1, "and you live in", country,",I also support", foot1, "But I think", foot2,"is trash. The goat of the world is so clearly",idol,"since they are the king and is better than crystal palace.")
