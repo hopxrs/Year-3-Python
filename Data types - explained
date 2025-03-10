@@ -1,0 +1,24 @@
+#Data types
+character = "d"
+realFloat = 54.55
+Integer = 345
+boolean = True
+string = "67confer67von"
+#C.R.I.B.S is a way to remmeber all the data types
+
+#You can "cast" for data types
+#For example:
+name = str(input("enter name"))
+#In this code, str means we want the data entered...
+#As a string
+
+age = int(input("enter age"))
+#In this code, int means we want the data entered...
+#As an integer
+
+price = float(input("enter price"))
+#In this code, float/real means we want the data entered...
+#As a decimal number
+
+#This is called "Casting" for data types
+
