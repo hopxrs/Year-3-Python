@@ -1,0 +1,16 @@
+#Improve the code from the challenge above
+#Ask user to enter y or n if they have a ticket
+#Ask user to enter their age (as an integer)
+#Assume the movie is rated 15
+#If they are old enough and have a ticket...
+#...display "Please find your seat"
+#Otherwise display "You are not allowed this time"
+ticket = str(input("Enter y or n if you have a ticket"))
+age = int(input("What is your age? "))
+print("The move is rated 15")
+if age >= 15 and ticket == "y":
+  print("Since you are", age, "you can watch the movie")
+elif age >= 15 & ticket == "n":
+  print("You need a ticket!")
+else:
+  print("I don't think soo!!!")
