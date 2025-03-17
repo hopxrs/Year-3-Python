@@ -1,0 +1,19 @@
+#Selection challenge 08 (GCSECS.com)
+#Most games have 1-player, 2-player and online options
+#Write some code displays a menu e.g.:
+#"Press 1 for 1-player, 2 for 2-player" etc
+#if 1 is entered "Thank you for choosing 1-player"...
+#...is displayed (repeast for 2 and 3)
+#if anythin other than 1, 2 or 3 is entered...
+#..display "invalid choice"
+
+print("Welcome to my game!")
+press = int(input("Press 1 for 1-player, 2 for 2-player, and 3 for 3 player"))
+if press == 1:
+  print("Thanks for choosing player one")
+elif press == 2:
+  print("Thanks for choosing a friend to helpy you play!")
+elif press == 3:
+  print("3 Player! What a party!")
+else:
+  print("Invalid choice!")
