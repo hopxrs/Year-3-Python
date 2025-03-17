@@ -1,0 +1,15 @@
+#Selection challenge 09 (GCSECS.com)
+#Remember BIDMAS from maths?
+#Brackets can influence the flow
+#To get into a club you must be over 18, but...
+#...you can either have an invite or be a member
+#Code this algorithm
+print("Hey, im the bouncer, welcome to the club!")
+age = int(input("How old are you!"))
+member = str(input("Are you a member(yes or no)"))
+invite = str(input("Did you get an invite?"))
+
+if age > 18 or member == "yes" or invite == "yes" :
+  print("Welcome!")
+else:
+  print("Nu Uh!")
