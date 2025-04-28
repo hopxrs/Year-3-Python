@@ -1,0 +1,65 @@
+inte = int(input("Enter an interger over 5>>> ")
+if inte == 5:
+  print("you entered 5")
+  print("")
+  print("Run again with a different input")
+if inte > 5:
+  print("you entered", inte, "Which is greater than 5")
+  print("")
+  print("Run again with a different input")
+if inte < 5:
+  print("you entered", inte, "Which is less than 5")
+  print("")
+  print("Run again with a different input")
+
+
+
+
+interger = int(input("Enter an interger between (an including) 5 and 10>>> "))
+
+while interger >= 5 and <= 10:
+  print("thank you")
+  print("")
+  print("Run again with different input")
+
+elif interger < 5:
+  print("too small")
+  print("")
+  print("Run again with a different input")
+
+else:
+  print("too big")
+  print("")
+  print("Run again with a different input")
+
+
+hours = int(input("How many hours on average do you spend watching TV each day? 1, 3, more?:
+if hours > 3:
+  print("Maybe go outside for a change")
+  print("")
+  print("Run again with different input")
+
+if hours <= 1:
+  print("Not too bad")
+  print("")
+  print("Run again with different input")
+
+if hours == 2:
+  print("Its a bit much")
+  print("")
+  print("Run again with different input
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
