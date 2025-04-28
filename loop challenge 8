@@ -1,0 +1,13 @@
+#For loop challenge8 (GCSECS.COM)
+
+#Lottery number generator
+#use import random on line 1
+#use a = random.randint(0,50) to...
+#generate a random integer between 0 and 50
+#use a for loop to generate...
+#6 random integers 
+
+import random
+for i in range(6):
+  ran = random.randint(0,50)
+  print(ran)
