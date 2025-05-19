@@ -1,0 +1,73 @@
+
+import random
+number = random.randint(1,10)
+attempts = 0
+guess = ""
+
+
+#add a While loop here
+
+    guess=int(input("### Code Missing ###"))
+    attempts = ### Code Missing ###
+
+if guess == number:
+   ### Code Missing ###
+else:
+    print("You are out of attempts")
+
+
+
+import random
+number = random.randint(1,10)
+attempts = 0
+guess = ""
+
+
+#add a While loop here
+
+    guess=int(input("### Code Missing ###"))
+    attempts = ### Code Missing ###
+
+if guess == number:
+   ### Code Missing ###
+else:
+    print("You are out of attempts")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lan = ""
+
+while lan != "Python":
+  lan = ""
+  lan = input("What coding language is this?")
+  
+print("ok, thanks!")
